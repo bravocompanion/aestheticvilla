@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#26372d" />
+  <meta name="description" content="Aesthetic Villa — ruang untuk berhenti sejenak, menikmati ketenangan, dan merencanakan liburan yang lebih personal. Jelajahi villa dan kirim permintaan reservasi." />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Aesthetic Villa — A Place to Slow Down" />
+  <meta property="og:description" content="Your own little corner of calm. Jelajahi suasana Aesthetic Villa dan rencanakan masa menginap Anda." />
+  <meta property="og:url" content="https://aestheticvilla.my.id/" />
+  <link rel="canonical" href="https://aestheticvilla.my.id/" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="site.config.js"></script>
+  <script defer src="script.js"></script>
+  <title>Aesthetic Villa — A Place to Slow Down</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Lewati ke konten</a>
+  <div class="page-progress" id="page-progress"></div>
+  <div class="announcement"><span class="announcement-dot"></span> A PLACE TO SLOW DOWN <span class="announcement-spark">✦</span> YOUR PRIVATE LITTLE ESCAPE</div>
+
+  <header id="header" class="site-header">
+    <a class="brand" href="#home" aria-label="Aesthetic Villa, beranda">
+      <span class="brand-mark">a<span>.</span></span>
+      <span class="brand-wordmark"><strong>aesthetic</strong><small>V I L L A</small></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Navigasi utama">
+      <a href="#about">Tentang</a>
+      <a href="#gallery">Galeri</a>
+      <a href="#amenities">Fasilitas</a>
+      <a href="#location">Lokasi</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="nav-book" href="#booking" data-book-open>Book your stay <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Buka menu"><span></span><span></span></button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Navigasi seluler" hidden>
+      <a href="#about">Tentang</a><a href="#gallery">Galeri</a><a href="#amenities">Fasilitas</a><a href="#location">Lokasi</a>
+      <button class="mobile-book" type="button" data-book-open>Permintaan Reservasi <span>↗</span></button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-image" role="img" aria-label="Ilustrasi foto villa modern yang dikelilingi suasana tropis"></div>
+      <div class="hero-grain"></div>
+      <div class="hero-content container">
+        <div class="hero-eyebrow reveal"><span class="eyebrow-line"></span> THE ART OF GETTING AWAY <span class="eyebrow-line"></span></div>
+        <h1 class="hero-title reveal" id="hero-title">A place to<br/><em>slow down.</em></h1>
+        <p class="hero-description reveal">Lebih dari sekadar tempat menginap. Sebuah ruang untuk menikmati momen, menemukan ketenangan, dan kembali merasa dekat dengan diri sendiri.</p>
+        <div class="hero-buttons reveal">
+          <a class="btn btn-light" href="#about">Explore the villa <span aria-hidden="true">↗</span></a>
+          <a class="text-link text-link-light" href="#gallery">Lihat galeri <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="hero-bottom container">
+        <span class="hero-index">01 <span>/</span> 04 &nbsp; — &nbsp; THE EXPERIENCE</span>
+        <a href="#booking" class="scroll-cue"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+      </div>
+    </section>
+
+    <section class="booking-section container" id="booking" aria-label="Permintaan reservasi">
+      <form class="booking-bar" id="booking-bar">
+        <div class="booking-intro"><span class="booking-kicker">YOUR NEXT GETAWAY</span><strong>Make room for rest.</strong></div>
+        <label class="booking-field"><span>CHECK-IN</span><input id="checkin" type="date" required aria-label="Tanggal check-in" /></label>
+        <label class="booking-field"><span>CHECK-OUT</span><input id="checkout" type="date" required aria-label="Tanggal check-out" /></label>
+        <label class="booking-field guests-field"><span>TAMU</span><select id="guests" aria-label="Jumlah tamu"><option value="1">1 Tamu</option><option value="2" selected>2 Tamu</option><option value="3">3 Tamu</option><option value="4">4 Tamu</option><option value="5">5 Tamu</option><option value="6">6 Tamu</option><option value="7">7 Tamu</option><option value="8">8 Tamu</option><option value="9">9+ Tamu</option></select></label>
+        <button class="booking-submit" type="submit">Cek tanggal <span aria-hidden="true">↗</span></button>
+      </form>
+      <p class="booking-hint">* Ketersediaan dan harga dikonfirmasi langsung oleh pengelola.</p>
+    </section>
+
+    <section class="intro-section section-pad" id="about">
+      <div class="container intro-grid">
+        <div class="intro-left reveal">
+          <p class="section-kicker"><span class="kicker-dot"></span> WELCOME TO AESTHETIC VILLA</p>
+          <h2 class="section-title">Some places<br/>just <em>feel like home.</em></h2>
+        </div>
+        <div class="intro-right reveal">
+          <p class="intro-lead">Ada perjalanan yang tak perlu diisi dengan banyak rencana.</p>
+          <p>Cukup bangun tanpa tergesa, menikmati cahaya pagi, berbagi cerita, dan membiarkan waktu berjalan lebih pelan. Aesthetic Villa dirancang sebagai pengalaman menginap dengan suasana yang hangat, tenang, dan terasa personal.</p>
+          <a href="#gallery" class="underlined-link">Discover our spaces <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="container feature-image-wrap reveal">
+        <div class="feature-image" role="img" aria-label="Foto inspirasi ruang santai villa modern"></div>
+        <div class="feature-stamp" aria-hidden="true"><span>STAY</span><strong>slow.</strong><span>LIVE WELL</span></div>
+        <div class="feature-image-tag">THOUGHTFULLY DESIGNED SPACES &nbsp; / &nbsp; AESTHETIC VILLA</div>
+      </div>
+    </section>
+
+    <section class="moments-section section-pad">
+      <div class="container moments-grid">
+        <div class="moments-photo reveal"><img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1100&q=82" alt="Foto inspirasi interior villa dengan pencahayaan hangat" loading="lazy" /></div>
+        <div class="moments-copy reveal">
+          <p class="section-kicker"><span class="kicker-dot"></span> LITTLE MOMENTS, BIG MEMORIES</p>
+          <h2 class="section-title">Made for the<br/><em>moments between.</em></h2>
+          <p>Untuk pagi yang tidak terburu-buru. Untuk percakapan panjang menjelang malam. Untuk hari-hari sederhana yang justru paling ingin dikenang.</p>
+          <div class="moment-points"><div><span>01</span><strong>Unwind</strong><p>Temukan kembali ritme yang nyaman.</p></div><div><span>02</span><strong>Reconnect</strong><p>Luangkan waktu bagi orang tersayang.</p></div><div><span>03</span><strong>Stay present</strong><p>Nikmati setiap detik tanpa tergesa.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section section-pad" id="gallery">
+      <div class="container gallery-heading reveal"><div><p class="section-kicker"><span class="kicker-dot"></span> A CLOSER LOOK</p><h2 class="section-title">A glimpse of<br/><em>the good life.</em></h2></div><p>Detail kecil, suasana hangat, dan ruang untuk membuat cerita baru. <span class="fine-print">Foto galeri merupakan referensi tampilan.</span></p></div>
+      <div class="gallery-grid container" id="gallery-grid" aria-label="Galeri inspirasi villa"></div>
+      <div class="container gallery-remark"><span>YOUR OWN LITTLE CORNER OF CALM</span><a class="underlined-link" href="#booking">Plan your escape <span aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section class="amenities-section section-pad" id="amenities">
+      <div class="container amenities-wrap">
+        <div class="amenities-intro reveal"><p class="section-kicker"><span class="kicker-dot"></span> THE LITTLE EXTRAS</p><h2 class="section-title">Comfort in<br/><em>every detail.</em></h2><p>Hal-hal sederhana yang membuat pengalaman menginap terasa lebih mudah dan menyenangkan.</p><span class="amenities-note">Daftar fasilitas contoh — sesuaikan dengan fasilitas villa yang tersedia.</span></div>
+        <div class="amenities-list" id="amenities-list"></div>
+      </div>
+    </section>
+
+    <section class="quote-section" aria-label="Pesan Aesthetic Villa"><div class="quote-inner container reveal"><span class="quote-spark">✳</span><p>“The best kind of luxury<br/>is the time to <em>just be.</em>”</p><span class="quote-caption">AESTHETIC VILLA · STAY BEAUTIFULLY</span></div></section>
+
+    <section class="location-section section-pad" id="location">
+      <div class="container location-grid"><div class="location-copy reveal"><p class="section-kicker"><span class="kicker-dot"></span> FIND YOUR WAY HERE</p><h2 class="section-title">Away from noise.<br/><em>Closer to you.</em></h2><p id="location-desc">Lokasi lengkap akan ditambahkan. Hubungi pengelola untuk informasi akses dan petunjuk perjalanan.</p><div class="location-address"><span class="location-icon">⌖</span><div><small>LOCATION</small><strong id="location-label">Your private escape in Indonesia</strong></div></div><a class="underlined-link" href="#booking" id="location-action">Tanyakan petunjuk arah <span aria-hidden="true">↗</span></a></div><div class="location-card reveal"><div class="location-card-bg"></div><div class="location-pin"><span class="pin-mark">a.</span><strong>Aesthetic Villa</strong><small>Find your little escape</small></div><span class="location-coord">YOUR NEXT DESTINATION &nbsp; / &nbsp; INDONESIA</span></div></div>
+    </section>
+
+    <section class="faq-section section-pad" id="faq"><div class="container faq-grid"><div class="reveal"><p class="section-kicker"><span class="kicker-dot"></span> GOOD TO KNOW</p><h2 class="section-title">Questions before<br/><em>you escape?</em></h2><p class="faq-intro">Kami ingin Anda merencanakan perjalanan dengan nyaman. Berikut beberapa hal yang perlu diketahui.</p></div><div class="faq-list reveal"><details><summary>Bagaimana cara melakukan reservasi? <span class="faq-plus"></span></summary><p>Pilih tanggal check-in, check-out, dan jumlah tamu, lalu kirim permintaan melalui tombol reservasi. Tim pengelola akan mengonfirmasi informasi selanjutnya.</p></details><details><summary>Apakah tanggal yang dipilih pasti tersedia? <span class="faq-plus"></span></summary><p>Belum tentu. Formulir di website adalah permintaan informasi, bukan sistem booking real-time. Ketersediaan dan harga akan dikonfirmasi oleh pengelola.</p></details><details><summary>Jam check-in dan check-out pukul berapa? <span class="faq-plus"></span></summary><p>Silakan tanyakan kepada pengelola. Jam check-in dan check-out akan diinformasikan sebelum pemesanan dikonfirmasi.</p></details><details><summary>Apakah ada peraturan khusus untuk tamu? <span class="faq-plus"></span></summary><p>Peraturan penginapan, kebijakan anak-anak, hewan peliharaan, dan ketentuan lainnya dapat diminta langsung kepada pengelola sebelum reservasi.</p></details></div></div></section>
+
+    <section class="cta-section"><div class="cta-photo"></div><div class="cta-overlay"></div><div class="container cta-content reveal"><p class="section-kicker">YOU DESERVE A LITTLE BREAK</p><h2>Let's make time<br/>for <em>beautiful days.</em></h2><p>Hari baik dimulai dengan memberi ruang untuk diri sendiri.</p><button type="button" class="btn btn-light" data-book-open>Plan your stay <span aria-hidden="true">↗</span></button></div></section>
+  </main>
+
+  <footer class="footer"><div class="container"><div class="footer-upper"><div><a class="brand footer-brand" href="#home"><span class="brand-mark">a<span>.</span></span><span class="brand-wordmark"><strong>aesthetic</strong><small>V I L L A</small></span></a><p>For the days you wish could last a little longer.</p></div><div class="footer-links"><div><strong>EXPLORE</strong><a href="#about">Tentang villa</a><a href="#gallery">Galeri</a><a href="#amenities">Fasilitas</a><a href="#faq">FAQ</a></div><div><strong>LET'S CONNECT</strong><button type="button" data-book-open>Reservasi</button><a id="footer-instagram" href="#" hidden rel="noopener noreferrer" target="_blank">Instagram ↗</a><a id="footer-email" href="#" hidden>Email pengelola ↗</a></div></div></div><div class="footer-bottom"><span>© <span id="copyright-year"></span> Aesthetic Villa. All rights reserved.</span><span>MADE FOR SLOWER DAYS · AESTHETICVILLA.MY.ID</span><a href="#home">Back to top ↑</a></div></div></footer>
+
+  <div class="modal-backdrop" id="booking-modal" hidden>
+    <div class="modal-panel booking-modal-panel" role="dialog" aria-modal="true" aria-labelledby="booking-modal-title" tabindex="-1"><button type="button" class="modal-close" id="booking-close" aria-label="Tutup formulir">×</button><span class="modal-kicker">YOUR STAY, YOUR STORY</span><h2 id="booking-modal-title">Send a stay <em>enquiry.</em></h2><p class="modal-subtitle">Isi detail di bawah untuk menyiapkan permintaan reservasi. Pemesanan belum dikonfirmasi.</p><form id="enquiry-form"><div class="form-row"><label>Check-in<input type="date" id="enquiry-checkin" required /></label><label>Check-out<input type="date" id="enquiry-checkout" required /></label></div><div class="form-row"><label>Jumlah tamu<select id="enquiry-guests"><option value="1">1 tamu</option><option value="2">2 tamu</option><option value="3">3 tamu</option><option value="4">4 tamu</option><option value="5">5 tamu</option><option value="6">6 tamu</option><option value="7">7 tamu</option><option value="8">8 tamu</option><option value="9">9+ tamu</option></select></label><label>Nama Anda<input type="text" id="enquiry-name" placeholder="Nama lengkap" required autocomplete="name" maxlength="100" /></label></div><label>Catatan tambahan <span class="optional">(opsional)</span><textarea id="enquiry-note" rows="3" placeholder="Ada kebutuhan khusus atau pertanyaan?" maxlength="600"></textarea></label><p class="form-validation" id="form-validation" role="alert" hidden></p><button class="modal-send" type="submit">Buat permintaan reservasi <span>↗</span></button><p class="modal-disclaimer" id="modal-disclaimer">Formulir ini menyiapkan pesan untuk pengelola, bukan melakukan pembayaran atau menjamin ketersediaan.</p></form><div class="copy-panel" id="copy-panel" hidden><p>Nomor WhatsApp villa belum diatur. Berikut pesan reservasi yang bisa Anda salin:</p><pre id="copy-message"></pre><button type="button" class="modal-send" id="copy-request">Salin pesan reservasi <span>⧉</span></button><p id="copy-status" role="status"></p></div></div>
+  </div>
+  <div class="modal-backdrop" id="gallery-modal" hidden><div class="modal-panel gallery-modal-panel" role="dialog" aria-modal="true" aria-label="Lihat foto galeri" tabindex="-1"><button type="button" class="modal-close gallery-close" id="gallery-close" aria-label="Tutup galeri">×</button><button type="button" class="gallery-prev" id="gallery-prev" aria-label="Foto sebelumnya">←</button><img id="gallery-large" alt="Foto galeri" /><button type="button" class="gallery-next" id="gallery-next" aria-label="Foto berikutnya">→</button><div class="gallery-caption"><span id="gallery-large-label">Tropical Living</span><span id="gallery-counter">01 / 05</span></div></div></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
