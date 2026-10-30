@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aestheticvilla.my.id/sitemap.xml
